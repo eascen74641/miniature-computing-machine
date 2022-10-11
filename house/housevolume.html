@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <script src = "getint.js"></script>
+
+        <title>House Volume</title>
+
+        <style>
+            body
+            {
+                text-align: center;
+                background-color: chartreuse;
+            }
+            h1
+            {
+                font-size: 48px;
+                font-family: 'Times New Roman', Times, serif;
+                color:black
+            }
+            img
+            {
+                width: 700px;
+                height: 500px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            House Volume
+        </h1>
+
+        <br><br>
+
+        <img src="house.jpg">
+
+        <br><br>
+
+        Height: <input type = "text" id = "height">
+ 
+        Depth: <input type = "text" id = "depth">
+
+        Width: <input type = "text" id = "width">
+
+        Sweep: <input type = "text" id = "sweep">
+
+        <button type = "button" onclick = "doInputOutput()">
+            Get House Volume
+        </button>
+
+        <br><br>
+        
+        <div id = "output"></div>
+
+    </body>
+</html>
